@@ -6,4 +6,3 @@ In preprocessing, all data (both training and test) were one-hot encoded.
 For the random forest algorithm, a simple imputer was used to handle missing values for categorical values the most frequent was chosen, and for numeric values the median was chosen).
 The XGBoost algorithm can handle missing values on its own, and so for that algorithm the preprocessing did not include data imputation.
 
-The resulting algorithm reached a score of 0.865 on the private test data.
